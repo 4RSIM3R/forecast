@@ -1,11 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/currentWeatherFragment"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:id="@+id/currentWeather"
         android:title="Today"/>
     <item
-        android:id="@+id/futureListWeatherFragment"
+        android:icon="@drawable/ic_view_week_black_24dp"
+        android:id="@+id/futureListWeather"
         android:title="7 Days"/>
     <item
-        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:id="@+id/settingFragment"
         android:title="Settings"/>
 </menu>
